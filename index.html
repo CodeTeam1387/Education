@@ -1,5 +1,165 @@
 [
   {
+    "مدرس  ": "brightfuture",
+    "نام آموزش ": "اتصال به سرور مانند روبیکا و...",
+    "مدت زمان": "24:07",
+    "لینک تماشا": "https://enama.ir/videos/3534218",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "brightfuture",
+    "نام آموزش ": "ساخت برنامه روت یاب",
+    "مدت زمان": "3:59",
+    "لینک تماشا": "https://enama.ir/videos/3534212",
+    "کد وجود دارد؟": "yes",
+    "کد ها 1": "\ntry {\n\t\t\tRuntime.getRuntime().exec(\"su\"); \n\t\t\t//Code To Run When Root Found\n\t_TEXT.setText(\"گوشی شما روت است\");\n} catch (Exception e ) {\n\t\t\t\t//Code To Run When Root Not Found\n\t_TEXT.setText(\"گوشی شما روت نیست\");\n}",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "ساخت ساعت",
+    "مدت زمان": "2:58",
+    "لینک تماشا": "https://enama.ir/videos/3534209",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "I.T.V",
+    "نام آموزش ": "ساخت دیباگ",
+    "مدت زمان": "9:38",
+    "لینک تماشا": "https://enama.ir/videos/3534203",
+    "کد وجود دارد؟": "yes",
+    "کد ها 1": "اسم صفحه\ndebug",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "ساخت کتاب آفلاین",
+    "مدت زمان": "7:23",
+    "لینک تماشا": "https://enama.ir/videos/3534143",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "brightfuture",
+    "نام آموزش ": "ساخت چراغ قوه با سوییچ",
+    "مدت زمان": "3:04",
+    "لینک تماشا": "https://enama.ir/videos/3534137",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "ساخت تقویم و ساعت هوشمند",
+    "مدت زمان": "3:15",
+    "لینک تماشا": "https://enama.ir/videos/3534134",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "ساخت برنامه نمایش برنامه های نصب شده",
+    "مدت زمان": "1:02",
+    "لینک تماشا": "https://enama.ir/videos/3534131",
+    "کد وجود دارد؟": "yes",
+    "کد ها 1": "Intent startupIntent \u003d new Intent(Intent.ACTION_MAIN); \t\tstartupIntent.addCategory(Intent.CATEGORY_LAUNCHER);  \t\tfinal android.content.pm.PackageManager pm \u003d getPackageManager(); \t\tList\u003candroid.content.pm.ResolveInfo\u003e activities \u003d pm.queryIntentActivities(startupIntent,0);   \t\tCollections.sort(activities, new Comparator\u003candroid.content.pm.ResolveInfo\u003e() {  \t\t\t\tpublic int compare(android.content.pm.ResolveInfo a, android.content.pm.ResolveInfo b) {  \t\t\t\t\tandroid.content.pm.PackageManager pm \u003d getPackageManager();  \t\t\t\t\treturn String.CASE_INSENSITIVE_ORDER.compare(  \t\t\t\t\t\ta.loadLabel(pm).toString(),  \t\t\t\t\t\tb.loadLabel(pm).toString());  \t\t\t\t}  \t\t\t});   \t\tArrayAdapter\u003candroid.content.pm.ResolveInfo\u003e adapter \u003d new ArrayAdapter\u003candroid.content.pm.ResolveInfo\u003e(  \t\t\tthis, android.R.layout.simple_list_item_1, activities) {  \t\t\tpublic View getView(int pos, View convertView, ViewGroup parent) { TextView tv \u003d new TextView(MainActivity.this);  \t\t\t\tandroid.content.pm.ResolveInfo ri \u003d getItem(pos);  \t\t\ttv.setText(ri.loadLabel(pm));  \tLinearLayout lin \u003d new LinearLayout(MainActivity.this);ImageView iv \u003d new ImageView(MainActivity.this);iv.setImageDrawable(ri.loadIcon(pm));lin.addView(iv);lin.addView(tv);tv.setGravity(Gravity.CENTER_VERTICAL);tv.setPadding(16,0,0,0);tv.setTextSize(16);tv.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT ));LinearLayout.LayoutParams p \u003d\tnew LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.MATCH_PARENT);p.width \u003d 70;p.height \u003d 70;p.bottomMargin \u003d 4;p.topMargin \u003d 4;iv.setLayoutParams(p);lin.setPadding(6,6,6,6);return lin;  \t\t\t}  \t\t};  \t\tlistview1.setAdapter(adapter); \t\t \t\tlistview1.setOnItemClickListener(new AdapterView.OnItemClickListener() {  \t\t\t\t@Override \t\t\t\tpublic void onItemClick(AdapterView adapter, View v, int position, long id) \t\t\t\t{ \t\t\t\t\tandroid.content.pm.ResolveInfo resolveInfo \u003d (android.content.pm.ResolveInfo)adapter.getItemAtPosition(position);  \t\t\t\t\tandroid.content.pm.ActivityInfo activityInfo \u003d resolveInfo.activityInfo;  \t\t\t\t\tif (activityInfo \u003d\u003d null) return;  \t\t\t\t\tUri packageURI \u003d Uri.parse(\"package:\".concat(activityInfo.applicationInfo.packageName)); Intent uninstallIntent \u003d new Intent(Intent.ACTION_DELETE, packageURI); startActivity(uninstallIntent); \t\t\t\t}  \t\t\t \t\t});;",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "چک کردن اتصال اینترنت برای هر ورود",
+    "مدت زمان": "3:16",
+    "لینک تماشا": "https://enama.ir/videos/3534125",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": " اگه فیلد خالی بود هشدار بده",
+    "مدت زمان": "0:42",
+    "لینک تماشا": "https://enama.ir/videos/3534119",
+    "کد وجود دارد؟": "yes",
+    "کد ها 1": "edittext1.setError(\"فیلد خالی است\");",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "I.T.V",
+    "نام آموزش ": "ساخت دیتابیس با گوگل شیت",
+    "مدت زمان": "12:21",
+    "لینک تماشا": "https://enama.ir/videos/3534116",
+    "کد وجود دارد؟": "yes",
+    "کد ها 1": "لینک دانلود برنامه \n\nhttps://play.google.com/store/apps/details?id\u003dcom.google.android.apps.docs.editors.sheets\n\nلینک سایت:\nhttps://sheetdb.io/",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "ساخت تلویزیون آنلاین ",
+    "مدت زمان": "5:20",
+    "لینک تماشا": "https://enama.ir/videos/3534110",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "I.T.V",
+    "نام آموزش ": "ساخت برنامه ای که html رو ران کنه",
+    "مدت زمان": "2:09",
+    "لینک تماشا": "https://enama.ir/videos/3534107",
+    "کد وجود دارد؟": "yes",
+    "کد ها 1": "Data:text/html,",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "Roz amozesh",
+    "نام آموزش ": "ساخت برنامه ای شبیه مایکت",
+    "مدت زمان": "16:37",
+    "لینک تماشا": "https://enama.ir/videos/3534098",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "DATIS GAME",
+    "نام آموزش ": "ساخت برنامه اطلاع رسانی",
+    "مدت زمان": "6:27",
+    "لینک تماشا": "https://enama.ir/videos/3534092",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
+    "مدرس  ": "I.T.V",
+    "نام آموزش ": "گزاشتن فیلم آنلاین در برنامه ",
+    "مدت زمان": "6:42",
+    "لینک تماشا": "https://enama.ir/videos/3534089",
+    "کد وجود دارد؟": "no",
+    "کد ها 1": "کدی وجود ندارد",
+    "کد ها 2": "کدی وجود ندارد",
+    "کد ها 3": "کدی وجود ندارد"
+  },
+  {
     "مدرس  ": "I.T.V",
     "نام آموزش ": "ساخت پیغام زیبا",
     "مدت زمان": "7:43",
